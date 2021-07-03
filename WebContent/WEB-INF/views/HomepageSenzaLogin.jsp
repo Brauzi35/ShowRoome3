@@ -158,7 +158,7 @@
     <hr style="align:left;size:1 ;width:1200px ;color:black; noshade;"></hr>
  
    <form action="&lt;%= request.getContextPath() %&gt;/register" method="post">
-        <p style="margin-top:65px;margin-left:410px;"><button name="Chart" style="height: 35px; width: 95px; margin-top: -48px; margin-left: 160px;background-color: #4D4D4D;">Vedi altri</button></p>
+        <p style="margin-top:65px;margin-left:410px;"><button  disabled="true" name="Chart" style="height: 35px; width: 95px; margin-top: -48px; margin-left: 160px;background-color: #4D4D4D;">Vedi altri</button></p>
       </form>
       <%} %>
     <h3 style="margin-top: -1225px; margin-left: 1000px;"></h3>

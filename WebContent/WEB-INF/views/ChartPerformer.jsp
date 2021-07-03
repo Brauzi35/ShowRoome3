@@ -75,7 +75,7 @@
      <textarea readonly="readonly" style="width : 400px; height: 60px; resize: none;"   form="Descrizione artista"><%= lrb.get(0).getReview() %></textarea ><label  style="margin-top:90px;margin-left:100px;"><%= lrb.get(0).getAuthor() %></label >
      </ul><ul><textarea readonly="readonly"   style="width: 400px; height: 60px; resize: none;"  form="Descrizione artista">-Borioso e arrogante non merita un soldo *</textarea ><label  style="margin-top:90px;margin-left:100px;">Valerietto</label>
      </ul><ul><textarea readonly="readonly"  style="width: 400px; height: 60px; resize: none;"  form="Descrizione artista">-Borioso e arrogante non merita un soldo *</textarea><label style="margin-top:90px;margin-left:100px;">Giorgiette Magritte</label></ul></h3></li>
-  <form action="&lt;%= request.getContextPath() %&gt;/register" method="post">   <button name="Informazioni" style="height: 35px; width: 90px; margin-top: 100px; margin-left: 480px; background-color: #4d4d4d;">Vedi altre</button></form>
+  <form action="&lt;%= request.getContextPath() %&gt;/register" method="post">   <button  disabled="true" name="Informazioni" style="height: 35px; width: 90px; margin-top: 100px; margin-left: 480px; background-color: #4d4d4d;">Vedi altre</button></form>
   
   <%} %>
       

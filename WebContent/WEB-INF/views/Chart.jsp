@@ -93,7 +93,7 @@
   <form action="SubmitReview" method="post" style=" margin-top: -150px;""> <textarea id="story" name="story" style=" margin-left: 950px;resize: none ;"rows="5" cols="33">
 It was a dark and stormy night...
 </textarea> <button name="Dona" style="height: 35px; width: 90px; margin-top: -150px; margin-left: 1030px; background-color: #4d4d4d;">Recensisci</button> </form>
-  <form action="test" method="post">   <button name="Informazioni" style="height: 35px; width: 90px; margin-top: 20px; margin-left: 480px; background-color: #4d4d4d;">Vedi altre</button></form>
+  <form action="test" method="post">   <button  disabled="true" name="Informazioni" style="height: 35px; width: 90px; margin-top: 20px; margin-left: 480px; background-color: #4d4d4d;">Vedi altre</button></form>
 
     
       </form>
