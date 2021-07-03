@@ -67,6 +67,7 @@ public class LoginControllerWeb extends HttpServlet {
         try {
 			lc.setupSessionUser(id, idUsername, idPassword);
 			HttpSession session = request.getSession();
+			session.setAttribute("Capienza", 0); //questo serve perchè altrimenti al primo avvio mapArtist va in errore
 			HomepageArtistController hac = new HomepageArtistController();
 			EventBean eb = hac.getLiveEventWeb(); // if the current artist is hosting any show eb won't be null
 		    if (eb != null) {
